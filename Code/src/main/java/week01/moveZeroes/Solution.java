@@ -1,20 +1,8 @@
-package algorithm008.class02.week01;
+package week01.moveZeroes;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-
-/**
- * @author yangbaiyinnamula
- * @date 2020-04-14
- */
-public class LeetCode283 {
-
-    public static void main(String[] args) {
-        int[] nums = {0,1,0,3,12};
-
-        Solution solution = new Solution();
-        solution.moveZeroes(nums);
-    }
-}
 
 /**
  * 解题思路
@@ -24,7 +12,17 @@ public class LeetCode283 {
  * 优点：不用添加，删除或移动数组元素，执行效率较高
  * 缺点：有些反直觉
  */
-class Solution {
+public class Solution {
+
+    @Test
+    public void test1() {
+        int[] nums = {0, 1, 0, 3, 12};
+        int[] expected = {1, 3, 13, 0, 0};
+
+        Solution solution = new Solution();
+        solution.moveZeroes(nums);
+    }
+
     public void moveZeroes(int[] nums) {
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -35,6 +33,7 @@ class Solution {
         while (j < nums.length) {
             nums[j++] = 0;
         }
+
         System.out.println(Arrays.toString(nums));
     }
 }
