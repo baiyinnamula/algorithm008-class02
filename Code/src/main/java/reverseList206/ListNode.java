@@ -1,4 +1,4 @@
-package week01;
+package reverseList206;
 
 public class ListNode {
     public int val;

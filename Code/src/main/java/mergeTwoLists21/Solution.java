@@ -1,6 +1,6 @@
-package week01.mergeTwoLists;
+package mergeTwoLists21;
 
-import week01.ListNode;
+import reverseList206.ListNode;
 
 /**
  * @author yangbaiyinnamula

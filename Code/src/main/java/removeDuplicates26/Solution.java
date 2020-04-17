@@ -1,4 +1,4 @@
-package week01.removeDuplicates;
+package removeDuplicates26;
 
 /**
  * @author yangbaiyinnamula

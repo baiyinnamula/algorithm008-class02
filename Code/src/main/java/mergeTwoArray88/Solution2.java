@@ -1,4 +1,4 @@
-package week01.mergeTwoArray;
+package mergeTwoArray88;
 
 /**
  * @author yangbaiyinnamula

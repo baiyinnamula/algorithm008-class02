@@ -1,4 +1,4 @@
-package week01.subtractProductAndSum;
+package subtractProductAndSum1281;
 
 /**
  * @author yangbaiyinnamula

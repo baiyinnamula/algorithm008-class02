@@ -1,10 +1,11 @@
-package week01.reverseList;
-
-import week01.ListNode;
+package reverseList206;
 
 /**
  * @author yangbaiyinnamula
+ * 解法1：使用迭代
  * 206. 反转链表
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 
 class Solution {

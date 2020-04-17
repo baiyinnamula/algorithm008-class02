@@ -1,4 +1,4 @@
-package week01.plusOne;
+package plusOne61;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
