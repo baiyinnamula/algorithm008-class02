@@ -1,4 +1,4 @@
-package week01.moveZeroes;
+package moveZeroes283;
 
 import org.junit.jupiter.api.Test;
 
