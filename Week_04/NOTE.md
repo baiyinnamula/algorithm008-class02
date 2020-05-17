@@ -44,11 +44,9 @@ public class UnOrderPosition {
 }
 ```
 
-left = 0, right = 6,mid = 3
+时间复杂度：O(logn)，n 是原数组长度，由于使用的是二分查找，所以时间复杂度是对数级。
 
-left = 3, right = 6,mid = 4
-
-left = 3, right = 4,mid = 4
+空间复杂度：O(1)，只使用了一个临时变量 mid ,空间复杂是常数级。
 
 
 
