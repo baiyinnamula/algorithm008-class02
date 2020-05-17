@@ -22,7 +22,7 @@ public class UnOrderPosition {
             }
             int mid = left + (right - left) / 2;
             //左半部分是有序数组
-            if (nums[0] <= nums[mid]) {
+            if (nums[left] <= nums[mid]) {
                 left = mid;
             } else {//右半部分是有序数组
                 right = mid;
